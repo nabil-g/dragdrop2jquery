@@ -1,0 +1,77 @@
+/*CSS*/
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+main{
+  /*height: 100%;*/
+  width: 50%;
+  margin: auto;
+  border: 2px solid green;
+  text-align: center;
+  padding: 20px;
+
+}
+
+section, div{
+  margin: auto;
+}
+
+.skittles{
+  width: 30%;
+  margin: 20px auto;
+  border: 2px dotted blue;
+}
+
+.bonbon{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  margin: 5px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+
+.bonbon p{
+  margin: auto;
+  font-weight: bold;
+}
+
+.dropzone{
+  width: 200px;
+  position: relative;
+  z-index: 1000;
+  margin: 20px;
+  border: 2px dashed black;
+}
+
+#red{
+  background-color: red;
+}
+
+#orange{
+  background-color: orange;
+}
+
+#blue{
+  background-color: blue;
+}
+
+#yellow{
+  background-color: yellow;
+}
+
+#green{
+  background-color: green;
+}
+
+#purple{
+  background-color: purple;
+}
