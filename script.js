@@ -17,9 +17,9 @@ $(document).ready(function() {
         $('#compteur').text(newmsg);
       }
       else {
-        $('#message,#compteur').remove();
-        $('main').append('Bien joué !</br><a href="index.html">Rejouer</a>');
-        alert("bien joué");
+        $('#compteur').remove();
+        $('#message').html('Bien joué !</br><a href="index.html">Rejouer</a>');
+
       }
 
 
