@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 
   $('.bonbon').draggable({
-    containment : 'main',    revert : 'invalid'
+    containment : 'main',    revert : 'invalid', cursor: "move"
   });
 
   $('.dropzone').droppable({
