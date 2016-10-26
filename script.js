@@ -13,7 +13,7 @@ $(document).ready(function() {
     drop : function() {
       if(count >0){
         count--;
-        var newmsg = "Plus que " + count + " bonbons !";
+        var newmsg = "Plus que " + count + " bonbon(s) !";
         $('#compteur').text(newmsg);
       }
       else {
